@@ -22,4 +22,6 @@ module.exports = {
   env: {
     BASE_URL: process.env.FAIME_SERVER_URL,
   },
+   reactStrictMode: true,
+  distDir: "dist",
 };
